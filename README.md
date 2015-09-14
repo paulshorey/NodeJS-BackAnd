@@ -16,3 +16,5 @@ Very minimal. More coming soon.
   * Create system variable to link to this file. This variable is used by app.js to find the secret credentials Command line: export APP_CREDENTIALS_FILE="/Volumes/Media/WEB-APP/secret/all.js"
 
   * Alternatively, temporarily just type the credentials into app.js
+
+3) node app.js
