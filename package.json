@@ -1,0 +1,12 @@
+{
+  "name": "Paul-Shorey-Dev",
+  "version": "1.0.0",
+  "description": "Nothing much",
+  "author": "Paul Shorey",
+  "dependencies": {
+    "q": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+  }
+}
