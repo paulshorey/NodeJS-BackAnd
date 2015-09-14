@@ -8,7 +8,7 @@ process.backand = require("./node_custom/backand.js");
 // BACKAND
 // auth
 try {
-	process.secret = require("../../secret/all.js");
+	process.secret = require(process.env.APP_CREDENTIALS_FILE); // exports = { backand: { username: '', password: '', appname: '' } };
 } catch(e) {
 	process.secret = {};
 	process.secret.backand = {
