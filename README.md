@@ -7,14 +7,12 @@ Very minimal. More coming soon.
 
 # Instructions
 
-npm install
+1) npm install
 
-edit security details 
+2) edit security details 
 
-* By creating a ".js" file somewhere on your filesystem, outside of the GIT repository or website root. Contents of this file should be: exports = { backand: { username: '', password: '', appname: '' } };
+  * Create a ".js" file somewhere on your filesystem, outside of the GIT repository or website root. Contents of this file should be: exports = { backand: { username: '', password: '', appname: '' } };
 
-* Create system variable to link to this file: export APP_CREDENTIALS_FILE="/Volumes/Media/WEB-APP/secret/all.js"
+  * Create system variable to link to this file. This variable is used by app.js to find the secret credentials Command line: export APP_CREDENTIALS_FILE="/Volumes/Media/WEB-APP/secret/all.js"
 
-* This variable is used by app.js to find the secret credentials
-
-* Alternatively, temporarily just type the credentials into app.js
+  * Alternatively, temporarily just type the credentials into app.js
